@@ -1,0 +1,6 @@
+--- 
+ruby: |
+  # add github to ruby gem search
+  gem sources -a http://gems.github.com
+  http://gems.github.com added to sources
+
