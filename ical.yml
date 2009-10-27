@@ -1,0 +1,6 @@
+--- 
+ical: |
+  defaults write com.apple.iCal TodayColor 00ff00
+  defaults write com.apple.iCal SelectedDayColor ffff00
+  # git://github.com/0xced/iCalColors.git
+
