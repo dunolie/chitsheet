@@ -1,0 +1,4 @@
+--- 
+chit: |
+  alias chitupdate='cd ~/.chit/private;git push origin master'
+
