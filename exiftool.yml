@@ -1,0 +1,6 @@
+--- 
+exiftool: |+
+  5 years, 10 months, 2 days, 10 hours and 48 minutes.
+  exiftool "-DateTimeOriginal+=5:10:2 10:48:0" DIR
+           ====================^^^^^^^^^^^^^^
+  
