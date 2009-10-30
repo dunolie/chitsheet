@@ -1,0 +1,12 @@
+--- 
+port_upgrade: |+
+  http://github.com/tdoan/port_upgrade/
+      * Install a port_upgrade config file into ~/.port_upgrade.conf, a sample is included with the gem (optional)
+      * Update your ports database from macports.org
+            o sudo port selfupdate (or sync)
+      * Run port_upgrade to generate a shell script
+            o port_upgrade -o upgrade.sh
+      * Run the shell script to update your ports tree
+            o sudo ./upgrade.sh
+      * There is no step 4
+  
