@@ -1,6 +1,7 @@
 --- 
-ruby: |
-  # add github to ruby gem search
+ruby: |+
+  # add sites to ruby gem search
   gem sources -a http://gems.github.com
   http://gems.github.com added to sources
-
+  gem sources -a http://www.gemcutter.org
+  
