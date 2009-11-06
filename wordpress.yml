@@ -1,0 +1,24 @@
+--- 
+wordpress: |
+  ## Wordpress keystrokes
+  Bold: ALT+SHIFT+b
+  Undo: ALT+SHIFT+u
+  Redo: ALT+SHIFT+y
+  Link: ALT+SHIFT+a
+  Italics: ALT+SHIFT+i
+  Align Center: ALT+SHIFT+c
+  Align Right: ALT+SHIFT+r
+  Align Left: ALT+SHIFT+f
+  Insert: ALT+SHIFT+s
+  Delete: ALT+SHIFT+d
+  Code: ALT+SHIFT+c
+  Read More: ALT+SHIFT+t
+  List Item (li): ALT+SHIFT+l
+  Ordered List (ol): ALT+SHIFT+o
+  Unordered List (ul): ALT+SHIFT+u
+  BlockQuote: ALT+SHIFT+q
+  Unquote/Outdent: ALT+SHIFT+w
+  Advanced Editor: ALT+SHIFT+v
+  Publish Post: ALT+SHIFT+p
+  Edit HTML: ALT+SHIFT+e
+
