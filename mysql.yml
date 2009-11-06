@@ -1,0 +1,16 @@
+--- 
+mysql: |+
+  # create a database in MySQL
+  mysql -u ''adminusername'' -p
+  
+  mysql> CREATE DATABASE ''databasename'';
+  mysql> GRANT ALL PRIVILEGES ON ''databasename''.* TO "''username''"@"''hostname''" IDENTIFIED BY "''password''";
+  mysql> FLUSH PRIVILEGES;
+  mysql> EXIT
+  
+  # How to backup mysql database by command line (dump)
+  mysqldump -h [HOSTNAME] -p -u [USERNAME] [DATABASENAME] > [FILENAME]
+  
+  # Migrate MySQL database from old host to a new host
+  mysqldump -h oldhost -u oldusername -poldpassword olddbname | mysql -h newhost -u newusername -pnewpassword newdbname
+  
