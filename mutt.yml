@@ -1,0 +1,5 @@
+--- 
+mutt: |
+  # install mutt via macports
+  sudo port -c install mutt-devel +gnuregex +gpgme +headercache +imap +pop +sasl +smtp +ssl +tokyocabinet +sidebar +trash
+
